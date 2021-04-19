@@ -72,9 +72,9 @@ class State:
             print("boat is lost...")
         return temp
 
-    def check_move(self, chickens, wolves):
+    def check_move(self, chickens, wolves, depth):
         temp = self.move(chickens, wolves)
-        if(temp in explored):
+        if((temp, depth) in explored):
             return False
         if(temp.left_chickens < 0 or
            temp.left_wolves < 0 or
@@ -110,7 +110,15 @@ class Node:
         return self.cost
 
     def check_action(self, c, w):
-        if(self.state.check_move(c, w)):
+        if(self.state.check_move(c, w, 0)):
+            temp = self.gen_child(c, w)
+            if(temp in frontier):
+                return False
+            return True
+        return False
+
+    def check_action_d(self, c, w):
+        if(self.state.check_move(c, w, self.cost+1)):
             temp = self.gen_child(c, w)
             if(temp in frontier):
                 return False
@@ -197,7 +205,7 @@ def bfs(init, goal):
         if(node.get_state() == goal):
             print("found goal")
             return node
-        explored.append(node.get_state())
+        explored.append((node.get_state(), 0))
         if(node.check_action(1, 0)):
             child = node.one_chicken()
             frontier.append(child)
@@ -230,7 +238,7 @@ def dfs(init, goal):
         if(node.get_state() == goal):
             print("found goal")
             return node
-        explored.append(node.get_state())
+        explored.append((node.get_state(), 0))
         if(node.check_action(1, 0)):
             child = node.one_chicken()
             frontier.append(child)
@@ -250,30 +258,30 @@ def dfs(init, goal):
 
 def rddfs(node, goal, limit):
     increment()
-    explored.append(node.get_state())
+    explored.append((node.get_state(), node.get_cost()))
     if (node.get_state() == goal):
         print("found goal")
         return node
     elif (limit <= 0):
         return None
     else:
-        if(node.check_action(1, 0)):
+        if(node.check_action_d(1, 0)):
             child = node.one_chicken()
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
-        if(node.check_action(2, 0)):
+        if(node.check_action_d(2, 0)):
             child = node.two_chickens()
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
-        if(node.check_action(0, 1)):
+        if(node.check_action_d(0, 1)):
             child = node.one_wolf()
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
-        if(node.check_action(1, 1)):
+        if(node.check_action_d(1, 1)):
             child = node.one_both()
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
-        if(node.check_action(0, 2)):
+        if(node.check_action_d(0, 2)):
             child = node.two_wolves()
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
