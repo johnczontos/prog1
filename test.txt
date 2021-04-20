@@ -1,0 +1,1531 @@
+None        
+
+chickens: 0, 96        
+wolves:   0, 94        
+boat:     0, 1        
+
+chickens: 1, 95        
+wolves:   0, 94        
+boat:     1, 0        
+
+chickens: 0, 96        
+wolves:   0, 94        
+boat:     0, 1        
+
+chickens: 2, 94        
+wolves:   0, 94        
+boat:     1, 0        
+
+chickens: 1, 95        
+wolves:   0, 94        
+boat:     0, 1        
+
+chickens: 1, 95        
+wolves:   1, 93        
+boat:     1, 0        
+
+chickens: 0, 96        
+wolves:   1, 93        
+boat:     0, 1        
+
+chickens: 2, 94        
+wolves:   1, 93        
+boat:     1, 0        
+
+chickens: 1, 95        
+wolves:   1, 93        
+boat:     0, 1        
+
+chickens: 3, 93        
+wolves:   1, 93        
+boat:     1, 0        
+
+chickens: 2, 94        
+wolves:   1, 93        
+boat:     0, 1        
+
+chickens: 3, 93        
+wolves:   2, 92        
+boat:     1, 0        
+
+chickens: 2, 94        
+wolves:   2, 92        
+boat:     0, 1        
+
+chickens: 4, 92        
+wolves:   2, 92        
+boat:     1, 0        
+
+chickens: 3, 93        
+wolves:   2, 92        
+boat:     0, 1        
+
+chickens: 4, 92        
+wolves:   3, 91        
+boat:     1, 0        
+
+chickens: 3, 93        
+wolves:   3, 91        
+boat:     0, 1        
+
+chickens: 5, 91        
+wolves:   3, 91        
+boat:     1, 0        
+
+chickens: 4, 92        
+wolves:   3, 91        
+boat:     0, 1        
+
+chickens: 5, 91        
+wolves:   4, 90        
+boat:     1, 0        
+
+chickens: 4, 92        
+wolves:   4, 90        
+boat:     0, 1        
+
+chickens: 6, 90        
+wolves:   4, 90        
+boat:     1, 0        
+
+chickens: 5, 91        
+wolves:   4, 90        
+boat:     0, 1        
+
+chickens: 6, 90        
+wolves:   5, 89        
+boat:     1, 0        
+
+chickens: 5, 91        
+wolves:   5, 89        
+boat:     0, 1        
+
+chickens: 7, 89        
+wolves:   5, 89        
+boat:     1, 0        
+
+chickens: 6, 90        
+wolves:   5, 89        
+boat:     0, 1        
+
+chickens: 7, 89        
+wolves:   6, 88        
+boat:     1, 0        
+
+chickens: 6, 90        
+wolves:   6, 88        
+boat:     0, 1        
+
+chickens: 8, 88        
+wolves:   6, 88        
+boat:     1, 0        
+
+chickens: 7, 89        
+wolves:   6, 88        
+boat:     0, 1        
+
+chickens: 8, 88        
+wolves:   7, 87        
+boat:     1, 0        
+
+chickens: 7, 89        
+wolves:   7, 87        
+boat:     0, 1        
+
+chickens: 9, 87        
+wolves:   7, 87        
+boat:     1, 0        
+
+chickens: 8, 88        
+wolves:   7, 87        
+boat:     0, 1        
+
+chickens: 9, 87        
+wolves:   8, 86        
+boat:     1, 0        
+
+chickens: 8, 88        
+wolves:   8, 86        
+boat:     0, 1        
+
+chickens: 10, 86        
+wolves:   8, 86        
+boat:     1, 0        
+
+chickens: 9, 87        
+wolves:   8, 86        
+boat:     0, 1        
+
+chickens: 10, 86        
+wolves:   9, 85        
+boat:     1, 0        
+
+chickens: 9, 87        
+wolves:   9, 85        
+boat:     0, 1        
+
+chickens: 11, 85        
+wolves:   9, 85        
+boat:     1, 0        
+
+chickens: 10, 86        
+wolves:   9, 85        
+boat:     0, 1        
+
+chickens: 11, 85        
+wolves:   10, 84        
+boat:     1, 0        
+
+chickens: 10, 86        
+wolves:   10, 84        
+boat:     0, 1        
+
+chickens: 12, 84        
+wolves:   10, 84        
+boat:     1, 0        
+
+chickens: 11, 85        
+wolves:   10, 84        
+boat:     0, 1        
+
+chickens: 12, 84        
+wolves:   11, 83        
+boat:     1, 0        
+
+chickens: 11, 85        
+wolves:   11, 83        
+boat:     0, 1        
+
+chickens: 13, 83        
+wolves:   11, 83        
+boat:     1, 0        
+
+chickens: 12, 84        
+wolves:   11, 83        
+boat:     0, 1        
+
+chickens: 13, 83        
+wolves:   12, 82        
+boat:     1, 0        
+
+chickens: 12, 84        
+wolves:   12, 82        
+boat:     0, 1        
+
+chickens: 14, 82        
+wolves:   12, 82        
+boat:     1, 0        
+
+chickens: 13, 83        
+wolves:   12, 82        
+boat:     0, 1        
+
+chickens: 14, 82        
+wolves:   13, 81        
+boat:     1, 0        
+
+chickens: 13, 83        
+wolves:   13, 81        
+boat:     0, 1        
+
+chickens: 15, 81        
+wolves:   13, 81        
+boat:     1, 0        
+
+chickens: 14, 82        
+wolves:   13, 81        
+boat:     0, 1        
+
+chickens: 15, 81        
+wolves:   14, 80        
+boat:     1, 0        
+
+chickens: 14, 82        
+wolves:   14, 80        
+boat:     0, 1        
+
+chickens: 16, 80        
+wolves:   14, 80        
+boat:     1, 0        
+
+chickens: 15, 81        
+wolves:   14, 80        
+boat:     0, 1        
+
+chickens: 16, 80        
+wolves:   15, 79        
+boat:     1, 0        
+
+chickens: 15, 81        
+wolves:   15, 79        
+boat:     0, 1        
+
+chickens: 17, 79        
+wolves:   15, 79        
+boat:     1, 0        
+
+chickens: 16, 80        
+wolves:   15, 79        
+boat:     0, 1        
+
+chickens: 17, 79        
+wolves:   16, 78        
+boat:     1, 0        
+
+chickens: 16, 80        
+wolves:   16, 78        
+boat:     0, 1        
+
+chickens: 18, 78        
+wolves:   16, 78        
+boat:     1, 0        
+
+chickens: 17, 79        
+wolves:   16, 78        
+boat:     0, 1        
+
+chickens: 18, 78        
+wolves:   17, 77        
+boat:     1, 0        
+
+chickens: 17, 79        
+wolves:   17, 77        
+boat:     0, 1        
+
+chickens: 19, 77        
+wolves:   17, 77        
+boat:     1, 0        
+
+chickens: 18, 78        
+wolves:   17, 77        
+boat:     0, 1        
+
+chickens: 19, 77        
+wolves:   18, 76        
+boat:     1, 0        
+
+chickens: 18, 78        
+wolves:   18, 76        
+boat:     0, 1        
+
+chickens: 20, 76        
+wolves:   18, 76        
+boat:     1, 0        
+
+chickens: 19, 77        
+wolves:   18, 76        
+boat:     0, 1        
+
+chickens: 20, 76        
+wolves:   19, 75        
+boat:     1, 0        
+
+chickens: 19, 77        
+wolves:   19, 75        
+boat:     0, 1        
+
+chickens: 21, 75        
+wolves:   19, 75        
+boat:     1, 0        
+
+chickens: 20, 76        
+wolves:   19, 75        
+boat:     0, 1        
+
+chickens: 21, 75        
+wolves:   20, 74        
+boat:     1, 0        
+
+chickens: 20, 76        
+wolves:   20, 74        
+boat:     0, 1        
+
+chickens: 22, 74        
+wolves:   20, 74        
+boat:     1, 0        
+
+chickens: 21, 75        
+wolves:   20, 74        
+boat:     0, 1        
+
+chickens: 22, 74        
+wolves:   21, 73        
+boat:     1, 0        
+
+chickens: 21, 75        
+wolves:   21, 73        
+boat:     0, 1        
+
+chickens: 23, 73        
+wolves:   21, 73        
+boat:     1, 0        
+
+chickens: 22, 74        
+wolves:   21, 73        
+boat:     0, 1        
+
+chickens: 23, 73        
+wolves:   22, 72        
+boat:     1, 0        
+
+chickens: 22, 74        
+wolves:   22, 72        
+boat:     0, 1        
+
+chickens: 24, 72        
+wolves:   22, 72        
+boat:     1, 0        
+
+chickens: 23, 73        
+wolves:   22, 72        
+boat:     0, 1        
+
+chickens: 24, 72        
+wolves:   23, 71        
+boat:     1, 0        
+
+chickens: 23, 73        
+wolves:   23, 71        
+boat:     0, 1        
+
+chickens: 25, 71        
+wolves:   23, 71        
+boat:     1, 0        
+
+chickens: 24, 72        
+wolves:   23, 71        
+boat:     0, 1        
+
+chickens: 25, 71        
+wolves:   24, 70        
+boat:     1, 0        
+
+chickens: 24, 72        
+wolves:   24, 70        
+boat:     0, 1        
+
+chickens: 26, 70        
+wolves:   24, 70        
+boat:     1, 0        
+
+chickens: 25, 71        
+wolves:   24, 70        
+boat:     0, 1        
+
+chickens: 26, 70        
+wolves:   25, 69        
+boat:     1, 0        
+
+chickens: 25, 71        
+wolves:   25, 69        
+boat:     0, 1        
+
+chickens: 27, 69        
+wolves:   25, 69        
+boat:     1, 0        
+
+chickens: 26, 70        
+wolves:   25, 69        
+boat:     0, 1        
+
+chickens: 27, 69        
+wolves:   26, 68        
+boat:     1, 0        
+
+chickens: 26, 70        
+wolves:   26, 68        
+boat:     0, 1        
+
+chickens: 28, 68        
+wolves:   26, 68        
+boat:     1, 0        
+
+chickens: 27, 69        
+wolves:   26, 68        
+boat:     0, 1        
+
+chickens: 28, 68        
+wolves:   27, 67        
+boat:     1, 0        
+
+chickens: 27, 69        
+wolves:   27, 67        
+boat:     0, 1        
+
+chickens: 29, 67        
+wolves:   27, 67        
+boat:     1, 0        
+
+chickens: 28, 68        
+wolves:   27, 67        
+boat:     0, 1        
+
+chickens: 29, 67        
+wolves:   28, 66        
+boat:     1, 0        
+
+chickens: 28, 68        
+wolves:   28, 66        
+boat:     0, 1        
+
+chickens: 30, 66        
+wolves:   28, 66        
+boat:     1, 0        
+
+chickens: 29, 67        
+wolves:   28, 66        
+boat:     0, 1        
+
+chickens: 30, 66        
+wolves:   29, 65        
+boat:     1, 0        
+
+chickens: 29, 67        
+wolves:   29, 65        
+boat:     0, 1        
+
+chickens: 31, 65        
+wolves:   29, 65        
+boat:     1, 0        
+
+chickens: 30, 66        
+wolves:   29, 65        
+boat:     0, 1        
+
+chickens: 31, 65        
+wolves:   30, 64        
+boat:     1, 0        
+
+chickens: 30, 66        
+wolves:   30, 64        
+boat:     0, 1        
+
+chickens: 32, 64        
+wolves:   30, 64        
+boat:     1, 0        
+
+chickens: 31, 65        
+wolves:   30, 64        
+boat:     0, 1        
+
+chickens: 32, 64        
+wolves:   31, 63        
+boat:     1, 0        
+
+chickens: 31, 65        
+wolves:   31, 63        
+boat:     0, 1        
+
+chickens: 33, 63        
+wolves:   31, 63        
+boat:     1, 0        
+
+chickens: 32, 64        
+wolves:   31, 63        
+boat:     0, 1        
+
+chickens: 33, 63        
+wolves:   32, 62        
+boat:     1, 0        
+
+chickens: 32, 64        
+wolves:   32, 62        
+boat:     0, 1        
+
+chickens: 34, 62        
+wolves:   32, 62        
+boat:     1, 0        
+
+chickens: 33, 63        
+wolves:   32, 62        
+boat:     0, 1        
+
+chickens: 34, 62        
+wolves:   33, 61        
+boat:     1, 0        
+
+chickens: 33, 63        
+wolves:   33, 61        
+boat:     0, 1        
+
+chickens: 35, 61        
+wolves:   33, 61        
+boat:     1, 0        
+
+chickens: 34, 62        
+wolves:   33, 61        
+boat:     0, 1        
+
+chickens: 35, 61        
+wolves:   34, 60        
+boat:     1, 0        
+
+chickens: 34, 62        
+wolves:   34, 60        
+boat:     0, 1        
+
+chickens: 36, 60        
+wolves:   34, 60        
+boat:     1, 0        
+
+chickens: 35, 61        
+wolves:   34, 60        
+boat:     0, 1        
+
+chickens: 36, 60        
+wolves:   35, 59        
+boat:     1, 0        
+
+chickens: 35, 61        
+wolves:   35, 59        
+boat:     0, 1        
+
+chickens: 37, 59        
+wolves:   35, 59        
+boat:     1, 0        
+
+chickens: 36, 60        
+wolves:   35, 59        
+boat:     0, 1        
+
+chickens: 37, 59        
+wolves:   36, 58        
+boat:     1, 0        
+
+chickens: 36, 60        
+wolves:   36, 58        
+boat:     0, 1        
+
+chickens: 38, 58        
+wolves:   36, 58        
+boat:     1, 0        
+
+chickens: 37, 59        
+wolves:   36, 58        
+boat:     0, 1        
+
+chickens: 38, 58        
+wolves:   37, 57        
+boat:     1, 0        
+
+chickens: 37, 59        
+wolves:   37, 57        
+boat:     0, 1        
+
+chickens: 39, 57        
+wolves:   37, 57        
+boat:     1, 0        
+
+chickens: 38, 58        
+wolves:   37, 57        
+boat:     0, 1        
+
+chickens: 39, 57        
+wolves:   38, 56        
+boat:     1, 0        
+
+chickens: 38, 58        
+wolves:   38, 56        
+boat:     0, 1        
+
+chickens: 40, 56        
+wolves:   38, 56        
+boat:     1, 0        
+
+chickens: 39, 57        
+wolves:   38, 56        
+boat:     0, 1        
+
+chickens: 40, 56        
+wolves:   39, 55        
+boat:     1, 0        
+
+chickens: 39, 57        
+wolves:   39, 55        
+boat:     0, 1        
+
+chickens: 41, 55        
+wolves:   39, 55        
+boat:     1, 0        
+
+chickens: 40, 56        
+wolves:   39, 55        
+boat:     0, 1        
+
+chickens: 41, 55        
+wolves:   40, 54        
+boat:     1, 0        
+
+chickens: 40, 56        
+wolves:   40, 54        
+boat:     0, 1        
+
+chickens: 42, 54        
+wolves:   40, 54        
+boat:     1, 0        
+
+chickens: 41, 55        
+wolves:   40, 54        
+boat:     0, 1        
+
+chickens: 42, 54        
+wolves:   41, 53        
+boat:     1, 0        
+
+chickens: 41, 55        
+wolves:   41, 53        
+boat:     0, 1        
+
+chickens: 43, 53        
+wolves:   41, 53        
+boat:     1, 0        
+
+chickens: 42, 54        
+wolves:   41, 53        
+boat:     0, 1        
+
+chickens: 43, 53        
+wolves:   42, 52        
+boat:     1, 0        
+
+chickens: 42, 54        
+wolves:   42, 52        
+boat:     0, 1        
+
+chickens: 44, 52        
+wolves:   42, 52        
+boat:     1, 0        
+
+chickens: 43, 53        
+wolves:   42, 52        
+boat:     0, 1        
+
+chickens: 44, 52        
+wolves:   43, 51        
+boat:     1, 0        
+
+chickens: 43, 53        
+wolves:   43, 51        
+boat:     0, 1        
+
+chickens: 45, 51        
+wolves:   43, 51        
+boat:     1, 0        
+
+chickens: 44, 52        
+wolves:   43, 51        
+boat:     0, 1        
+
+chickens: 45, 51        
+wolves:   44, 50        
+boat:     1, 0        
+
+chickens: 44, 52        
+wolves:   44, 50        
+boat:     0, 1        
+
+chickens: 46, 50        
+wolves:   44, 50        
+boat:     1, 0        
+
+chickens: 45, 51        
+wolves:   44, 50        
+boat:     0, 1        
+
+chickens: 46, 50        
+wolves:   45, 49        
+boat:     1, 0        
+
+chickens: 45, 51        
+wolves:   45, 49        
+boat:     0, 1        
+
+chickens: 47, 49        
+wolves:   45, 49        
+boat:     1, 0        
+
+chickens: 46, 50        
+wolves:   45, 49        
+boat:     0, 1        
+
+chickens: 47, 49        
+wolves:   46, 48        
+boat:     1, 0        
+
+chickens: 46, 50        
+wolves:   46, 48        
+boat:     0, 1        
+
+chickens: 48, 48        
+wolves:   46, 48        
+boat:     1, 0        
+
+chickens: 47, 49        
+wolves:   46, 48        
+boat:     0, 1        
+
+chickens: 48, 48        
+wolves:   47, 47        
+boat:     1, 0        
+
+chickens: 47, 49        
+wolves:   47, 47        
+boat:     0, 1        
+
+chickens: 49, 47        
+wolves:   47, 47        
+boat:     1, 0        
+
+chickens: 48, 48        
+wolves:   47, 47        
+boat:     0, 1        
+
+chickens: 49, 47        
+wolves:   48, 46        
+boat:     1, 0        
+
+chickens: 48, 48        
+wolves:   48, 46        
+boat:     0, 1        
+
+chickens: 50, 46        
+wolves:   48, 46        
+boat:     1, 0        
+
+chickens: 49, 47        
+wolves:   48, 46        
+boat:     0, 1        
+
+chickens: 50, 46        
+wolves:   49, 45        
+boat:     1, 0        
+
+chickens: 49, 47        
+wolves:   49, 45        
+boat:     0, 1        
+
+chickens: 51, 45        
+wolves:   49, 45        
+boat:     1, 0        
+
+chickens: 50, 46        
+wolves:   49, 45        
+boat:     0, 1        
+
+chickens: 51, 45        
+wolves:   50, 44        
+boat:     1, 0        
+
+chickens: 50, 46        
+wolves:   50, 44        
+boat:     0, 1        
+
+chickens: 52, 44        
+wolves:   50, 44        
+boat:     1, 0        
+
+chickens: 51, 45        
+wolves:   50, 44        
+boat:     0, 1        
+
+chickens: 52, 44        
+wolves:   51, 43        
+boat:     1, 0        
+
+chickens: 51, 45        
+wolves:   51, 43        
+boat:     0, 1        
+
+chickens: 53, 43        
+wolves:   51, 43        
+boat:     1, 0        
+
+chickens: 52, 44        
+wolves:   51, 43        
+boat:     0, 1        
+
+chickens: 53, 43        
+wolves:   52, 42        
+boat:     1, 0        
+
+chickens: 52, 44        
+wolves:   52, 42        
+boat:     0, 1        
+
+chickens: 54, 42        
+wolves:   52, 42        
+boat:     1, 0        
+
+chickens: 53, 43        
+wolves:   52, 42        
+boat:     0, 1        
+
+chickens: 54, 42        
+wolves:   53, 41        
+boat:     1, 0        
+
+chickens: 53, 43        
+wolves:   53, 41        
+boat:     0, 1        
+
+chickens: 55, 41        
+wolves:   53, 41        
+boat:     1, 0        
+
+chickens: 54, 42        
+wolves:   53, 41        
+boat:     0, 1        
+
+chickens: 55, 41        
+wolves:   54, 40        
+boat:     1, 0        
+
+chickens: 54, 42        
+wolves:   54, 40        
+boat:     0, 1        
+
+chickens: 56, 40        
+wolves:   54, 40        
+boat:     1, 0        
+
+chickens: 55, 41        
+wolves:   54, 40        
+boat:     0, 1        
+
+chickens: 56, 40        
+wolves:   55, 39        
+boat:     1, 0        
+
+chickens: 55, 41        
+wolves:   55, 39        
+boat:     0, 1        
+
+chickens: 57, 39        
+wolves:   55, 39        
+boat:     1, 0        
+
+chickens: 56, 40        
+wolves:   55, 39        
+boat:     0, 1        
+
+chickens: 57, 39        
+wolves:   56, 38        
+boat:     1, 0        
+
+chickens: 56, 40        
+wolves:   56, 38        
+boat:     0, 1        
+
+chickens: 58, 38        
+wolves:   56, 38        
+boat:     1, 0        
+
+chickens: 57, 39        
+wolves:   56, 38        
+boat:     0, 1        
+
+chickens: 58, 38        
+wolves:   57, 37        
+boat:     1, 0        
+
+chickens: 57, 39        
+wolves:   57, 37        
+boat:     0, 1        
+
+chickens: 59, 37        
+wolves:   57, 37        
+boat:     1, 0        
+
+chickens: 58, 38        
+wolves:   57, 37        
+boat:     0, 1        
+
+chickens: 59, 37        
+wolves:   58, 36        
+boat:     1, 0        
+
+chickens: 58, 38        
+wolves:   58, 36        
+boat:     0, 1        
+
+chickens: 60, 36        
+wolves:   58, 36        
+boat:     1, 0        
+
+chickens: 59, 37        
+wolves:   58, 36        
+boat:     0, 1        
+
+chickens: 60, 36        
+wolves:   59, 35        
+boat:     1, 0        
+
+chickens: 59, 37        
+wolves:   59, 35        
+boat:     0, 1        
+
+chickens: 61, 35        
+wolves:   59, 35        
+boat:     1, 0        
+
+chickens: 60, 36        
+wolves:   59, 35        
+boat:     0, 1        
+
+chickens: 61, 35        
+wolves:   60, 34        
+boat:     1, 0        
+
+chickens: 60, 36        
+wolves:   60, 34        
+boat:     0, 1        
+
+chickens: 62, 34        
+wolves:   60, 34        
+boat:     1, 0        
+
+chickens: 61, 35        
+wolves:   60, 34        
+boat:     0, 1        
+
+chickens: 62, 34        
+wolves:   61, 33        
+boat:     1, 0        
+
+chickens: 61, 35        
+wolves:   61, 33        
+boat:     0, 1        
+
+chickens: 63, 33        
+wolves:   61, 33        
+boat:     1, 0        
+
+chickens: 62, 34        
+wolves:   61, 33        
+boat:     0, 1        
+
+chickens: 63, 33        
+wolves:   62, 32        
+boat:     1, 0        
+
+chickens: 62, 34        
+wolves:   62, 32        
+boat:     0, 1        
+
+chickens: 64, 32        
+wolves:   62, 32        
+boat:     1, 0        
+
+chickens: 63, 33        
+wolves:   62, 32        
+boat:     0, 1        
+
+chickens: 64, 32        
+wolves:   63, 31        
+boat:     1, 0        
+
+chickens: 63, 33        
+wolves:   63, 31        
+boat:     0, 1        
+
+chickens: 65, 31        
+wolves:   63, 31        
+boat:     1, 0        
+
+chickens: 64, 32        
+wolves:   63, 31        
+boat:     0, 1        
+
+chickens: 65, 31        
+wolves:   64, 30        
+boat:     1, 0        
+
+chickens: 64, 32        
+wolves:   64, 30        
+boat:     0, 1        
+
+chickens: 66, 30        
+wolves:   64, 30        
+boat:     1, 0        
+
+chickens: 65, 31        
+wolves:   64, 30        
+boat:     0, 1        
+
+chickens: 66, 30        
+wolves:   65, 29        
+boat:     1, 0        
+
+chickens: 65, 31        
+wolves:   65, 29        
+boat:     0, 1        
+
+chickens: 67, 29        
+wolves:   65, 29        
+boat:     1, 0        
+
+chickens: 66, 30        
+wolves:   65, 29        
+boat:     0, 1        
+
+chickens: 67, 29        
+wolves:   66, 28        
+boat:     1, 0        
+
+chickens: 66, 30        
+wolves:   66, 28        
+boat:     0, 1        
+
+chickens: 68, 28        
+wolves:   66, 28        
+boat:     1, 0        
+
+chickens: 67, 29        
+wolves:   66, 28        
+boat:     0, 1        
+
+chickens: 68, 28        
+wolves:   67, 27        
+boat:     1, 0        
+
+chickens: 67, 29        
+wolves:   67, 27        
+boat:     0, 1        
+
+chickens: 69, 27        
+wolves:   67, 27        
+boat:     1, 0        
+
+chickens: 68, 28        
+wolves:   67, 27        
+boat:     0, 1        
+
+chickens: 69, 27        
+wolves:   68, 26        
+boat:     1, 0        
+
+chickens: 68, 28        
+wolves:   68, 26        
+boat:     0, 1        
+
+chickens: 70, 26        
+wolves:   68, 26        
+boat:     1, 0        
+
+chickens: 69, 27        
+wolves:   68, 26        
+boat:     0, 1        
+
+chickens: 70, 26        
+wolves:   69, 25        
+boat:     1, 0        
+
+chickens: 69, 27        
+wolves:   69, 25        
+boat:     0, 1        
+
+chickens: 71, 25        
+wolves:   69, 25        
+boat:     1, 0        
+
+chickens: 70, 26        
+wolves:   69, 25        
+boat:     0, 1        
+
+chickens: 71, 25        
+wolves:   70, 24        
+boat:     1, 0        
+
+chickens: 70, 26        
+wolves:   70, 24        
+boat:     0, 1        
+
+chickens: 72, 24        
+wolves:   70, 24        
+boat:     1, 0        
+
+chickens: 71, 25        
+wolves:   70, 24        
+boat:     0, 1        
+
+chickens: 72, 24        
+wolves:   71, 23        
+boat:     1, 0        
+
+chickens: 71, 25        
+wolves:   71, 23        
+boat:     0, 1        
+
+chickens: 73, 23        
+wolves:   71, 23        
+boat:     1, 0        
+
+chickens: 72, 24        
+wolves:   71, 23        
+boat:     0, 1        
+
+chickens: 73, 23        
+wolves:   72, 22        
+boat:     1, 0        
+
+chickens: 72, 24        
+wolves:   72, 22        
+boat:     0, 1        
+
+chickens: 74, 22        
+wolves:   72, 22        
+boat:     1, 0        
+
+chickens: 73, 23        
+wolves:   72, 22        
+boat:     0, 1        
+
+chickens: 74, 22        
+wolves:   73, 21        
+boat:     1, 0        
+
+chickens: 73, 23        
+wolves:   73, 21        
+boat:     0, 1        
+
+chickens: 75, 21        
+wolves:   73, 21        
+boat:     1, 0        
+
+chickens: 74, 22        
+wolves:   73, 21        
+boat:     0, 1        
+
+chickens: 75, 21        
+wolves:   74, 20        
+boat:     1, 0        
+
+chickens: 74, 22        
+wolves:   74, 20        
+boat:     0, 1        
+
+chickens: 76, 20        
+wolves:   74, 20        
+boat:     1, 0        
+
+chickens: 75, 21        
+wolves:   74, 20        
+boat:     0, 1        
+
+chickens: 76, 20        
+wolves:   75, 19        
+boat:     1, 0        
+
+chickens: 75, 21        
+wolves:   75, 19        
+boat:     0, 1        
+
+chickens: 77, 19        
+wolves:   75, 19        
+boat:     1, 0        
+
+chickens: 76, 20        
+wolves:   75, 19        
+boat:     0, 1        
+
+chickens: 77, 19        
+wolves:   76, 18        
+boat:     1, 0        
+
+chickens: 76, 20        
+wolves:   76, 18        
+boat:     0, 1        
+
+chickens: 78, 18        
+wolves:   76, 18        
+boat:     1, 0        
+
+chickens: 77, 19        
+wolves:   76, 18        
+boat:     0, 1        
+
+chickens: 78, 18        
+wolves:   77, 17        
+boat:     1, 0        
+
+chickens: 77, 19        
+wolves:   77, 17        
+boat:     0, 1        
+
+chickens: 79, 17        
+wolves:   77, 17        
+boat:     1, 0        
+
+chickens: 78, 18        
+wolves:   77, 17        
+boat:     0, 1        
+
+chickens: 79, 17        
+wolves:   78, 16        
+boat:     1, 0        
+
+chickens: 78, 18        
+wolves:   78, 16        
+boat:     0, 1        
+
+chickens: 80, 16        
+wolves:   78, 16        
+boat:     1, 0        
+
+chickens: 79, 17        
+wolves:   78, 16        
+boat:     0, 1        
+
+chickens: 80, 16        
+wolves:   79, 15        
+boat:     1, 0        
+
+chickens: 79, 17        
+wolves:   79, 15        
+boat:     0, 1        
+
+chickens: 81, 15        
+wolves:   79, 15        
+boat:     1, 0        
+
+chickens: 80, 16        
+wolves:   79, 15        
+boat:     0, 1        
+
+chickens: 81, 15        
+wolves:   80, 14        
+boat:     1, 0        
+
+chickens: 80, 16        
+wolves:   80, 14        
+boat:     0, 1        
+
+chickens: 82, 14        
+wolves:   80, 14        
+boat:     1, 0        
+
+chickens: 81, 15        
+wolves:   80, 14        
+boat:     0, 1        
+
+chickens: 82, 14        
+wolves:   81, 13        
+boat:     1, 0        
+
+chickens: 81, 15        
+wolves:   81, 13        
+boat:     0, 1        
+
+chickens: 83, 13        
+wolves:   81, 13        
+boat:     1, 0        
+
+chickens: 82, 14        
+wolves:   81, 13        
+boat:     0, 1        
+
+chickens: 83, 13        
+wolves:   82, 12        
+boat:     1, 0        
+
+chickens: 82, 14        
+wolves:   82, 12        
+boat:     0, 1        
+
+chickens: 84, 12        
+wolves:   82, 12        
+boat:     1, 0        
+
+chickens: 83, 13        
+wolves:   82, 12        
+boat:     0, 1        
+
+chickens: 84, 12        
+wolves:   83, 11        
+boat:     1, 0        
+
+chickens: 83, 13        
+wolves:   83, 11        
+boat:     0, 1        
+
+chickens: 85, 11        
+wolves:   83, 11        
+boat:     1, 0        
+
+chickens: 84, 12        
+wolves:   83, 11        
+boat:     0, 1        
+
+chickens: 85, 11        
+wolves:   84, 10        
+boat:     1, 0        
+
+chickens: 84, 12        
+wolves:   84, 10        
+boat:     0, 1        
+
+chickens: 86, 10        
+wolves:   84, 10        
+boat:     1, 0        
+
+chickens: 85, 11        
+wolves:   84, 10        
+boat:     0, 1        
+
+chickens: 86, 10        
+wolves:   85, 9        
+boat:     1, 0        
+
+chickens: 85, 11        
+wolves:   85, 9        
+boat:     0, 1        
+
+chickens: 87, 9        
+wolves:   85, 9        
+boat:     1, 0        
+
+chickens: 86, 10        
+wolves:   85, 9        
+boat:     0, 1        
+
+chickens: 87, 9        
+wolves:   86, 8        
+boat:     1, 0        
+
+chickens: 86, 10        
+wolves:   86, 8        
+boat:     0, 1        
+
+chickens: 88, 8        
+wolves:   86, 8        
+boat:     1, 0        
+
+chickens: 87, 9        
+wolves:   86, 8        
+boat:     0, 1        
+
+chickens: 88, 8        
+wolves:   87, 7        
+boat:     1, 0        
+
+chickens: 87, 9        
+wolves:   87, 7        
+boat:     0, 1        
+
+chickens: 89, 7        
+wolves:   87, 7        
+boat:     1, 0        
+
+chickens: 88, 8        
+wolves:   87, 7        
+boat:     0, 1        
+
+chickens: 89, 7        
+wolves:   88, 6        
+boat:     1, 0        
+
+chickens: 88, 8        
+wolves:   88, 6        
+boat:     0, 1        
+
+chickens: 90, 6        
+wolves:   88, 6        
+boat:     1, 0        
+
+chickens: 89, 7        
+wolves:   88, 6        
+boat:     0, 1        
+
+chickens: 90, 6        
+wolves:   89, 5        
+boat:     1, 0        
+
+chickens: 89, 7        
+wolves:   89, 5        
+boat:     0, 1        
+
+chickens: 91, 5        
+wolves:   89, 5        
+boat:     1, 0        
+
+chickens: 90, 6        
+wolves:   89, 5        
+boat:     0, 1        
+
+chickens: 91, 5        
+wolves:   90, 4        
+boat:     1, 0        
+
+chickens: 90, 6        
+wolves:   90, 4        
+boat:     0, 1        
+
+chickens: 92, 4        
+wolves:   90, 4        
+boat:     1, 0        
+
+chickens: 91, 5        
+wolves:   90, 4        
+boat:     0, 1        
+
+chickens: 92, 4        
+wolves:   91, 3        
+boat:     1, 0        
+
+chickens: 91, 5        
+wolves:   91, 3        
+boat:     0, 1        
+
+chickens: 93, 3        
+wolves:   91, 3        
+boat:     1, 0        
+
+chickens: 92, 4        
+wolves:   91, 3        
+boat:     0, 1        
+
+chickens: 93, 3        
+wolves:   92, 2        
+boat:     1, 0        
+
+chickens: 92, 4        
+wolves:   92, 2        
+boat:     0, 1        
+
+chickens: 94, 2        
+wolves:   92, 2        
+boat:     1, 0        
+
+chickens: 93, 3        
+wolves:   92, 2        
+boat:     0, 1        
+
+chickens: 94, 2        
+wolves:   93, 1        
+boat:     1, 0        
+
+chickens: 93, 3        
+wolves:   93, 1        
+boat:     0, 1        
+
+chickens: 95, 1        
+wolves:   93, 1        
+boat:     1, 0        
+
+chickens: 94, 2        
+wolves:   93, 1        
+boat:     0, 1        
+
+chickens: 96, 0        
+wolves:   93, 1        
+boat:     1, 0        
+
+chickens: 95, 1        
+wolves:   93, 1        
+boat:     0, 1        
+
+chickens: 96, 0        
+wolves:   94, 0        
+boat:     1, 0    
+cost: 381    
+nodes expanded: 160620

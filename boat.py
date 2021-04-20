@@ -5,10 +5,13 @@
 import argparse
 import csv
 import copy
+import heapq
 
-explored = []
+
+explored = {}
 frontier = []
 expanded_count = 0
+iddfs_max = 700
 
 
 class State:
@@ -19,6 +22,14 @@ class State:
         self.right_wolves = right[1]
         # boat position: 0 for left 1 for right
         self.boat = 0 if left[2] else 1
+
+    def __hash__(self):
+        b = self.boat*10000
+        l1 = self.left_chickens*1000
+        l2 = self.left_wolves*100
+        r1 = self.right_chickens*10
+        r2 = self.right_wolves
+        return hash(b+l1+l2+r1+r2)
 
     def __str__(self):
         left_boat = 0 if self.boat else 1
@@ -103,11 +114,17 @@ class Node:
     def __eq__(self, other):
         return self.state == other.state
 
+    def __lt__(self, other):
+        return self.huristic_cost() > other.huristic_cost()
+
     def get_state(self):
         return self.state
 
     def get_cost(self):
         return self.cost
+
+    def huristic_cost(self):
+        return self.state.right_chickens + self.state.right_wolves
 
     def check_action(self, c, w):
         if(self.state.check_move(c, w, 0)):
@@ -122,6 +139,15 @@ class Node:
             temp = self.gen_child(c, w)
             if(temp in frontier):
                 return False
+            return True
+        return False
+
+    def check_action_a(self, c, w):
+        if(self.state.check_move(c, w, self.cost+1)):
+            temp = self.gen_child(c, w)
+            for (key, value) in frontier:
+                if value == temp:
+                    return False
             return True
         return False
 
@@ -205,7 +231,7 @@ def bfs(init, goal):
         if(node.get_state() == goal):
             print("found goal")
             return node
-        explored.append((node.get_state(), 0))
+        explored[(node.get_state(), 0)] = 1
         if(node.check_action(1, 0)):
             child = node.one_chicken()
             frontier.append(child)
@@ -238,7 +264,7 @@ def dfs(init, goal):
         if(node.get_state() == goal):
             print("found goal")
             return node
-        explored.append((node.get_state(), 0))
+        explored[(node.get_state(), 0)] = 1
         if(node.check_action(1, 0)):
             child = node.one_chicken()
             frontier.append(child)
@@ -258,7 +284,7 @@ def dfs(init, goal):
 
 def rddfs(node, goal, limit):
     increment()
-    explored.append((node.get_state(), node.get_cost()))
+    explored[(node.get_state(), node.get_cost())] = 1
     if (node.get_state() == goal):
         print("found goal")
         return node
@@ -267,22 +293,27 @@ def rddfs(node, goal, limit):
     else:
         if(node.check_action_d(1, 0)):
             child = node.one_chicken()
+            frontier.append(child)
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
         if(node.check_action_d(2, 0)):
             child = node.two_chickens()
+            frontier.append(child)
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
         if(node.check_action_d(0, 1)):
             child = node.one_wolf()
+            frontier.append(child)
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
         if(node.check_action_d(1, 1)):
             child = node.one_both()
+            frontier.append(child)
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
         if(node.check_action_d(0, 2)):
             child = node.two_wolves()
+            frontier.append(child)
             if((result := rddfs(child, goal, limit-1)) is not None):
                 return result
         return None
@@ -292,9 +323,9 @@ def ddfs(init, goal, limit):
     return rddfs(Node(init), goal, limit)
 
 
-def iddfs(init, goal):
+def iddfs(init, goal, max):
     lim = 0
-    while(True):
+    while(lim < max):
         frontier.clear()
         explored.clear()
         lim += 1
@@ -303,8 +334,38 @@ def iddfs(init, goal):
             return temp
 
 
-def astar():
-    return None
+def astar(init, goal):
+    if (init == goal):
+        return init
+
+    node = Node(init)
+    heapq.heappush(frontier, (node.get_cost(), node))
+    while(True):
+        if(len(frontier) <= 0):
+            print("failure!")
+            return None
+        node = heapq.heappop(frontier)[1]
+        # print(node)
+        increment()
+        if(node.get_state() == goal):
+            print("found goal")
+            return node
+        explored[(node.get_state(), node.get_cost())] = 1
+        if(node.check_action_a(1, 0)):
+            child = node.one_chicken()
+            heapq.heappush(frontier, (child.huristic_cost(), child))
+        if(node.check_action_a(2, 0)):
+            child = node.two_chickens()
+            heapq.heappush(frontier, (child.huristic_cost(), child))
+        if(node.check_action_a(0, 1)):
+            child = node.one_wolf()
+            heapq.heappush(frontier, (child.huristic_cost(), child))
+        if(node.check_action_a(1, 1)):
+            child = node.one_both()
+            heapq.heappush(frontier, (child.huristic_cost(), child))
+        if(node.check_action_a(0, 2)):
+            child = node.two_wolves()
+            heapq.heappush(frontier, (child.huristic_cost(), child))
 
 
 def parse_state(f):
@@ -325,9 +386,9 @@ def main():
     outFile = args.out
 
     # print(Node(init, 0))
-    print(init)
-
-    print(goal)
+    # print(init)
+    #
+    # print(goal)
 
 # "bfs", "dfs", "iddfs", "astar"
     if(mode == "bfs"):
@@ -335,11 +396,14 @@ def main():
     if(mode == "dfs"):
         temp = dfs(init, goal)
     if(mode == "iddfs"):
-        temp = iddfs(init, goal)
+        temp = iddfs(init, goal, iddfs_max)
     if(mode == "astar"):
         temp = astar(init, goal)
 
     # print(temp)
+    outFile.write(f'{temp.__str__()}\
+    \ncost: {temp.get_cost()}\
+    \nnodes expanded: {expanded_count}')
     print(f'cost: {temp.get_cost()}')
 
     print(f'nodes expanded: {expanded_count}')
